@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect(process.env.LOCAL_HOST);
+mongoose.connect(process.env.MONGODB_URL);
 
 // const me = new User({
 //     name: '     Kulbir    ',
